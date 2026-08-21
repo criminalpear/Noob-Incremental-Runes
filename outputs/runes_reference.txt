@@ -1,0 +1,206 @@
+Runes reference — extracted from the connected Potassium client
+
+Format: Rune [tier; roll chance; max level] -> boost/reward effects
+"x" is a multiplier; "+" is a flat addition. Values reflect the current client data.
+
+## Basic | Cost: Fire 50 | Realm: base
+Rookie [Basic; 80; max 500] -> Oofx0.2, Rebirthx0.1
+Learner [Basic; 15; max 400] -> Rebirthx0.15, RuneLuckx0.05
+Trained [Basic; 3; max 300] -> Oofx0.5, Rebirthx0.2, Firex0.15, RuneBulk+1
+Skilled [Basic; 0.5; max 200] -> Oofx2.5, Firex0.25, RuneLuckx0.075
+Expert [Basic; 0.002; max 150] -> Oofx5, Firex0.75, RuneSpeedx0.025, RuneBulkx0.1
+Master [Basic; 0.0001; max 115] -> Oofx15, Rebirthx5, Firex1, Blazex0.2, RuneBulk+1
+Grandmaster [Basic; 0.0000025; max 95] -> Oofx50, Blazex0.75, RuneSpeedx0.05, RuneBulkx1
+Celestial [Basic; 1.6e-10; max 75] -> Oofx750, Firex15, Rebirthx75, Blazex2, RuneBulkx5, RuneLuckx1
+Immortal [Basic; 2e-25; max 50] -> Oofx2500, Firex50, Rebirthx250, Blazex5, RuneBulkx1.5, RuneLuckx0.25
+Shadow [Noobinial; 4e-20; max 5] -> Oofx100, Blazex15, Prismx0.05, Coinx0.5, RuneBulkx10, Breadx5
+Phantom [Noobinial; 4e-26; max 20] -> Oofx1000, Firex50, Cashx100, Prismx0.05, RuneLuckx0.4, RuneBulkx100, Breadx5
+Atomic [Noobinial; 3.3333333333333333e-46; max 20] -> Oofx1000, Firex100, Cashx250, Prismx0.05, TierLuckx10, TierBulkx5, Breadx5
+Chronos Core [Noobinial; 2.8571428571428573e-47; max 3] -> Firex1000, Cashx350, Prismx0.05, RuneBulkx20, TierBulkx20, HackPointsx1, Wheatx5
+## Super | Cost: Cash 25000 | Realm: base
+Initiate [Basic; 90; max 1500] -> Oofx1, Firex0.5
+Adept [Basic; 7.5; max 1500] -> Blazex0.65, RuneBulkx0.125
+Veteran [Basic; 2; max 1500] -> Oofx8.5, Firex0.5, RuneLuckx0.083
+Elite [Basic; 0.02; max 250] -> Rebirthx5, Cashx0.75, RuneSpeedx0.025
+Champion [Basic; 0.0005; max 175] -> Oofx15, Firex1, Cashx1.65, RuneSpeedx0.04
+Ascended [Basic; 0.00005; max 125] -> Firex2, Cashx2.5, RuneLuckx0.15, RuneSpeedx0.06, RuneBulk+1
+Transcendent [Basic; 0.000002; max 100] -> Oofx30, Blazex1, Cashx4, RuneLuckx0.3, RuneBulkx0.5, Coinx0.5
+Universal [Basic; 5e-18; max 75] -> Oofx12, Firex15, Cashx12, RuneLuckx0.5, RuneBulkx1, TierLuckx5, Coinx0.65
+Omnipotent [Basic; 8e-27; max 50] -> Blazex40, Firex45, Cashx40, RuneLuckx0.5, RuneBulkx1.5
+Eclipse [Noobinial; 4e-22; max 10] -> Oofx100, Firex25, Prismx0.05, RuneBulkx25, Breadx5
+Void [Noobinial; 4e-29; max 25] -> Oofx1000, Blazex25, Cashx100, Prismx0.05, RuneLuckx0.4, RuneBulkx62.5, Breadx5
+Primordial [Noobinial; 2e-35; max 25] -> Oofx1000, Rebirthx500, Firex100, TierLuckx2, PrismRuneSpeedx0.1, TierBulkx0.5, Wheatx5, Breadx3
+Oblivion Sigil [Noobinial; 3.3333333333333334e-49; max 10] -> Oofx100000, TierLuckx20, PrismRuneSpeedx0.25, Prismx0.01, RuneSpeedx0.2, TierBulkx15, Wheatx3, Coinx0.25
+## Advanced | Cost: Bread 25 | Realm: base
+Little [Basic; 99; max 600] -> Oofx2, Wheatx0.015
+Lesser [Basic; 0.001; max 500] -> Cashx0.5, Rebirthx0.5, Wheatx0.02
+Standard [Basic; 0.0001; max 400] -> Firex0.5, Cashx2, Oofx5, Breadx0.05
+Greater [Basic; 0.000002; max 300] -> Firex1.5, Rebirthx2, Blazex0.1, Wheatx1
+Superior [Basic; 5e-07; max 200] -> Cashx3, Oofx10, Breadx0.3
+Prime [Basic; 1e-09; max 150] -> Cashx5, Rebirthx10, Blazex0.5, RuneLuckx0.15, Wheatx2
+Apex [Basic; 1e-10; max 125] -> Firex4, Cashx7.5, Oofx20, RuneBulkx1, RuneLuckx0.25, Breadx1
+Ethereal [Basic; 2e-12; max 100] -> Cashx10, Oofx27.5, Rebirthx30, Blazex1, RuneLuckx0.5, Breadx1.5
+Divine [Basic; 5e-16; max 75] -> Firex8, Cashx12.5, Oofx35, Blazex2, Coinx0.5, RuneBulkx2, RuneLuckx1
+Infinite [Basic; 5.7e-27; max 50] -> Oofx50, Rebirthx40, Firex10, Cashx15, Blazex3, RuneBulkx2, RuneLuckx2, Breadx2.5
+Abyss [Noobinial; 4e-24; max 15] -> Oofx100, Cashx40, Prismx0.05, RuneLuckx0.4, RuneBulkx12.5, Breadx5
+Enigma [Noobinial; 4e-32; max 30] -> Oofx1000, Firex50, Blazex25, Prismx0.05, RuneBulkx125, Breadx5
+Seraphim’s Tear [Noobinial; 1e-42; max 6] -> Oofx10000, Rebirthx500, Firex100, TierLuckx3, TierBulkx2, Wheatx5, Breadx3
+Aetherion [Noobinial; 8e-51; max 4] -> Oofx10000, Firex1000, HackPointsx0.5, Prismx0.05, TierBulkx25, TierLuckx15, Coinx1
+## Snowy | Cost: Ice 1000000 | Realm: 2
+Snow [Basic; 99; max 500] -> Oofx2, Waterx0.15
+Frost [Basic; 1e-16; max 400] -> Oofx5, Icex0.1
+Ice [Basic; 1e-18; max 300] -> Oofx7.5, Waterx0.3, Icex0.2, RuneLuckx0.05
+Hail [Basic; 5e-20; max 200] -> Waterx0.5, Icex0.35, Coinx0.25
+Glacier [Basic; 1e-24; max 150] -> Oofx10, Icex0.5, RuneSpeedx0.025, RuneBulkx0.1, RuneLuckx0.05
+Blizzard [Basic; 2e-40; max 115] -> Waterx0.4, Icex0.5, Ashx0.15, RuneBulkx0.1
+Tundra [Basic; 5e-44; max 95] -> Oofx12.5, Woodx0.75, Waterx4, Firex10, Ashx0.25, RuneSpeedx0.05
+Arctic [Basic; 2.5e-58; max 75] -> Oofx3, Waterx0.5, Planksx1, Firex100, RuneLuckx1
+Permafrost [Basic; 5.25e-64; max 50] -> Oofx15, Icex0.75, Woodx3, Firex10000, Ashx1, RuneLuckx0.25
+Whiteout [Noobinial; 2e-52; max 10] -> Oofx50, Icex0.75, Woodx6, Gemx0.65, Ashx0.85, RuneBulkx0.25
+Icebound [Noobinial; 2e-55; max 15] -> Oofx75, Icex1, TierLuckx10, Gemx0.75, PickaxeDamagex0.5, RuneSpeedx0.125
+Everfrost [Noobinial; 6.666666666666666e-58; max 10] -> Oofx100, Icex3, Prismx0.1, Gemx1, PickaxeDamagex0.675, RuneBulkx0.325
+## Deepcore | Cost: Gem 25000 | Realm: 2
+Dust [Basic; 99; max 500] -> Oofx2, OresStatsx0.05
+Pebble [Basic; 1e-20; max 400] -> Gemx0.2, Oofx2, OresStatsx0.1, Icex3
+Hollow [Basic; 5e-21; max 300] -> Firex50, PickaxeDamagex0.025, Gemx0.2, Icex2
+Echo [Basic; 1e-23; max 200] -> Oofx4, OresStatsx0.15, RuneLuckx0.025, Icex5
+Stalagmite [Basic; 5e-25; max 150] -> Oofx4, PickaxeDamagex0.025, Gemx0.15, Firex0.25, Icex7.5
+Cavern [Basic; 2e-27; max 115] -> Oofx7.5, Gemx0.1, Waterx1, RuneLuckx0.025
+Crystalborn [Basic; 1e-29; max 95] -> PickaxeDamagex0.025, OresStatsx0.2, Icex0.25, RuneLuckx0.05
+Earthshaker [Basic; 1e-32; max 75] -> Gemx0.75, PickaxeDamagex0.25, RuneBulkx0.067, RuneSpeedx0.0133
+Golemheart [Basic; 1e-36; max 50] -> Gemx2.5, PickaxeDamagex2.5, Oofx10000, RuneLuckx0.1
+Stone Titan [Noobinial; 1.0000000000000001e-29; max 15] -> Gemx3, OresStatsx1.5, Oofx50, PickaxeDamagex0.125, TierBulkx3
+Cave Guardian [Noobinial; 1.3333333333333333e-32; max 25] -> Gemx1.25, OresStatsx0.75, Oofx250, RuneSpeedx0.05, TierLuckx2
+Deep Spirit [Noobinial; 4e-34; max 30] -> Gemx2, Prismx0.02, PickaxeDamagex0.1, TierBulkx1.5, TierLuckx2.5
+## Shard | Cost: Gem 300000000000000 | Realm: 2
+AirShard [Basic; 99; max 250] -> Oofx0.04, Gemx0.5, Starsx2
+WaterShard [Basic; 6.666666666666667e-74; max 250] -> Gemx0.75, OresStatsx0.25, Icex1000000000, Oofx0.03
+EarthShard [Basic; 2.5e-79; max 240] -> Coinx0.05, Oofx0.05, OresStatsx0.9, Starsx0.3, Sandx1000000000
+FireShard [Basic; 1.3333333333333335e-84; max 230] -> Gemx1, Starsx0.4, Oofx0.07, Moonx0.05, Chipsx3
+IceShard [Basic; 8.333333333333335e-90; max 200] -> Gemx0.7, Oofx0.09, OresStatsx0.75, Starsx0.35, RuneLuckx0.1, PickaxeDamagex0.25
+PoisonShard [Basic; 8e-97; max 185] -> Gemx2, OresStatsx0.2, Starsx0.5, Planetsx0.05, Oofx0.09
+MetalShard [Basic; 6.666666666666668e-103; max 175] -> OresStatsx1, Coinx0.1, Oofx0.1, Starsx0.75, RuneLuckx0.125
+LightShard [Basic; 3.076923076923077e-105; max 160] -> PickaxeDamagex0.3, Oofx0.15, Starsx0.75, Coinx0.05, Blackholesx0.05, OresStatsx0.2, HackPointsx0.5
+ShadowShard [Basic; 2.5e-107; max 150] -> OresStatsx0.25, Oofx0.2, Starsx1.5, Gemx0.2, Coinx0.2, RuneLuckx0.1, HackPointsx1
+Galactic Shard [Noobinial; 2e-74; max 100] -> Gemx1, Prismx0.01, PickaxeDamagex0.1, Oofx0.5, Starsx25, AlienCashx2, Planetsx5, OresStatsx0.1
+Elemental Shard [Noobinial; 1e-75; max 75] -> Gemx2.5, TierLuckx0.05, Knowledgex0.2, PickaxeDamagex0.25, Starsx2000, AlienCashx2, Planetsx10, RuneBulkx0.1
+Dragon Shard [Noobinial; 5e-77; max 50] -> Gemx5, TierLuckx0.2, Knowledgex0.5, Oofx5, Chipsx0.5, AlienCashx2.5, RuneSpeedx0.01, RuneBulkx0.15
+## Dunes | Cost: Bones 100000 | Realm: 3
+Marrow [Basic; 99; max 500] -> Meatx0.2, Gemx0.01, Oofx2.5
+Femur [Basic; 0.0003; max 350] -> Bonesx0.5, SwordDamagex0.05, Woodx0.01
+Skull [Basic; 1e-07; max 200] -> Meatx0.6, Planksx0.15, Oofx5
+Dune [Basic; 2.67e-10; max 200] -> Meatx0.6, RuneLuckx0.15, Oofx7, Bonesx0.15
+Oasis [Basic; 2.3e-15; max 200] -> Waterx0.15, Oofx10, Bonesx0.15
+Mirage [Basic; 4e-19; max 200] -> Waterx0.4, Oofx15, Meatx0.14, TierLuckx0.15, SwordDamagex0.05
+Sunspire [Basic; 2.33e-23; max 200] -> Icex0.15, Oofx17.5, Soulsx0.135, RuneLuckx0.175
+Eternal Sand [Basic; 1.97e-26; max 200] -> Soulsx0.15, Oofx0.15, Meatx0.15, Bonesx0.15, Ashx0.15, RuneSpeedx0.15
+Sphinx [Noobinial; 3.3333333333333334e-39; max 7500] -> Soulsx2, Oofx10, Meatx2.5, Bonesx1000, TierLuckx0.05, RuneSpeedx0.1
+Anubis [Noobinial; 1.3333333333333334e-60; max 50] -> Soulsx5, Oofx100, TierLuckx0.5, Bonesx5, Sandx10, RuneSpeedx0.15
+Ancient Fragment [Noobinial; 2.8571428571428575e-63; max 65] -> Soulsx2, Sandx0.25, RuneBulkx0.1, Oofx5, TierLuckx0.25, Bonesx0.05
+## Sunfire | Cost: Sand 100 | Realm: 3
+Ashen [Basic; 99; max 6500] -> Soulsx0.05, Oofx0.2
+Parched [Basic; 0.0000023; max 6000] -> Bonesx0.15, Oofx1
+Cactus [Basic; 1.45e-08; max 5500] -> Oofx0.6, Bonesx0.4, RuneLuckx0.05
+Scorch [Basic; 2.742e-11; max 5000] -> Oofx0.75, Meatx0.6, TierBulkx0.5
+Spark [Basic; 2.243e-21; max 4500] -> Oofx1.25, Meatx0.3
+Flare [Basic; 2.3e-26; max 4250] -> Soulsx0.2, Oofx1.5, Bonesx0.6, RuneSpeedx0.02
+Desert Jewel [Basic; 1.33e-35; max 4000] -> Soulsx0.3, Oofx2, RuneBulkx0.1, TierLuckx0.1
+Solar Titan [Basic; 3.745e-44; max 3750] -> Soulsx0.2, Oofx4, TierBulkx0.05, TierLuckx0.15, RuneLuckx0.02
+Immortal Sun [Basic; 2.54e-53; max 3500] -> Soulsx0.1, Oofx100, Bonesx0.01, RuneBulkx0.01, RuneLuckx0.01
+Pharaoh [Noobinial; 5e-61; max 75] -> Sandx0.1, Bonesx0.2, Oofx1000, RuneBulkx0.25, RuneSpeedx0.01, Prismx0.01, ShovelDamagex0.05
+Horus [Noobinial; 6.666666666666667e-62; max 80] -> Sandx0.5, Soulsx2, Oofx50000, RuneBulkx0.2, RuneSpeedx0.02, RuneLuckx0.2, TierLuckx0.5
+Secrets Of Egypt [Noobinial; 3.333333333333333e-64; max 60] -> Soulsx25, Sandx0.3, RuneBulkx0.1, RuneSpeedx0.01, Oofx10, TierLuckx0.2, TierBulkx0.1
+## Sunstorm Prism | Cost: Prism 5 | Realm: 3
+Cinderfall [Basic; 99; max 35000] -> Oofx0.01, Firex0.05
+Shadowflare [Basic; 6.666666666666667e-08; max 25000] -> PrismRuneLuckx0.2, PrismRuneBulk+5, Cashx50, Woodx0.1
+Dawnshard [Basic; 1.3333333333333333e-09; max 20000] -> PrismRuneBulkx0.1, Wheatx0.25, Breadx20
+Lumina [Basic; 6.666666666666667e-11; max 12500] -> PrismRuneSpeedx0.1, PrismRuneLuckx0.05, Breadx10, Waterx0.15
+Pyrestone [Basic; 4.444444444444445e-12; max 10000] -> PrismRuneLuckx0.25, Icex0.25, Woodx5, Oofx0.02
+Helios [Basic; 2e-13; max 5000] -> PrismRuneLuckx0.4, PrismRuneBulk+10, Meatx0.1, Planksx0.2, Ashx0.3, ShovelDamagex0.05
+Starforge [Basic; 5e-15; max 2000] -> PrismRuneLuckx0.3, PrismRuneBulk+20, Planksx2, Bonesx0.05, HackPointsx0.05, Breadx50, Gemx0.1
+Celestia [Basic; 6.666666666666667e-17; max 750] -> PrismRuneBulkx0.2, Coinx0.5, Sandx0.05, TierLuckx0.05, Soulsx0.2, FootballRuneBulkx0.02, Oofx0.05
+Eternis [Noobinial; 1.3333333333333334e-12; max 45] -> PrismRuneSpeedx0.25, PrismRuneBulk+100, Oofx1, Prismx0.005, RuneBulkx0.05, Sandx0.1, Soulsx2, FootballRuneBulkx0.1
+Omnira [Noobinial; 8e-14; max 35] -> PrismRuneBulkx0.2, PrismRuneLuckx0.5, Prismx0.01, Oofx2, Sandx0.1, Soulsx5, RuneBulkx0.05, TierLuckx2
+## Cosmic Prism | Cost: Prism 3 | Realm: base
+Lucent [Basic; 40; max 5000] -> Oofx50, Cashx50, Breadx1
+Chroma [Basic; 25; max 4500] -> Oofx115, TierBulkx1, RuneBulkx0.1
+Fractal [Basic; 5; max 135] -> PrismRuneBulk+0.75, Blazex2, Wheatx1
+Refraction [Basic; 1; max 3500] -> PrismRuneSpeedx0.03, Firex2, Oofx400, TierLuckx0.25, RuneBulkx0.5
+Tessellation [Basic; 0.5; max 3000] -> PrismRuneBulk+1, Oofx600, Blazex3, Breadx2, RuneBulkx0.65
+Hyperlight [Basic; 0.3; max 2500] -> PrismRuneSpeedx0.089, Cashx5, Oofx2000, TierBulkx0.5, RuneBulkx0.75
+PrismGod [Basic; 0.1; max 2000] -> PrismRuneBulk+2, Firex5, Oofx5000, RuneBulkx0.125
+Voidglass [Basic; 0.0001; max 75] -> PrismRuneSpeedx0.0177, PrismRuneBulk+5, Cashx25, Oofx10000, TierBulkx0.75
+Godshard [Noobinial; 0.000001; max 25] -> PrismRuneSpeedx1, PrismRuneBulk+156.25, Oofx100000, Breadx2, Coinx0.5
+UltimateShard [Noobinial; 4e-10; max 25] -> Prismx0.05, Cashx156.25, Oofx1000000, Breadx2, Coinx0.5, RuneBulkx1.025, TierLuckx10
+## Starlight | Cost: Moon 100 | Realm: 4
+Moonlight [Basic; 99; max 650] -> Starsx0.5, Moonx0.2, Oofx0.45
+Sunlight [Basic; 2e-34; max 500] -> Moonx0.25, Planetsx0.2, Oofx0.25
+Invasion [Basic; 1.25e-39; max 450] -> Starsx0.7, Planetsx0.25, RuneLuckx0.05, Oofx0.2
+Alien [Basic; 4.444444444444444e-46; max 400] -> Starsx1, Planetsx0.3, Moonx0.15, Oofx0.2
+Universe [Basic; 1.0810810810810811e-55; max 375] -> Starsx2, Planetsx0.15, Moonx0.2, Oofx0.4
+Gravity [Basic; 6.666666666666666e-66; max 350] -> Starsx0.75, Blackholesx0.5, Moonx0.35, Oofx0.25, RuneLuckx0.05
+Dimensional [Basic; 1e-76; max 325] -> Moonx0.1, Blackholesx0.15, Planetsx0.2, Oofx0.15, TierLuckx0.1
+Meteor [Basic; 1.3333333333333333e-96; max 300] -> Starsx0.3, Oofx0.15, TierBulkx0.1, AlienCashx0.5, Blackholesx0.75, RuneLuckx0.25
+Nebula [Basic; 5e-98; max 275] -> Starsx0.1, TierLuckx0.3, RuneBulkx0.1, RuneLuckx0.15, AlienCashx3, Oofx0.1
+Supernova [Noobinial; 5e-70; max 525] -> AlienXPx0.5, RuneSpeedx0.2, Oofx3, Planetsx3, RuneBulkx0.01, Prismx0.01, AlienCashx0.5, TierLuckx0.05
+Galactic Chaos [Noobinial; 4.444444444444444e-71; max 500] -> Prismx0.01, Blackholesx2, Oofx5, RuneBulkx0.25, RuneLuckx0.02, AlienXPx0.2, Knowledgex0.2, TierLuckx0.1
+Chaotic Destruction [Noobinial; 6.666666666666667e-78; max 200] -> Starsx500, Oofx10, RuneBulkx0.1, RuneLuckx0.25, Chipsx0.5, AlienXPx2.5, Planetsx15, TierLuckx0.15
+## Cosma | Cost: Knowledge 5000000 | Realm: 4
+Asteroid [Basic; 99; max 750] -> Oofx0.01, Starsx0.5, AlienCashx0.2
+Comet [Basic; 6.666666666666666e-37; max 700] -> Planetsx0.4, SpacePointsx0.2, Knowledgex0.1, RuneLuckx0.3, Oofx0.02
+Satellite [Basic; 3.333333333333333e-44; max 650] -> AlienCashx0.35, Oofx0.03, Blackholesx0.4, Planetsx0.15, RuneSpeedx0.1
+Orbit [Basic; 1.4285714285714284e-52; max 575] -> RuneLuckx0.1, Prismx0.01, Knowledgex0.1, Starsx2, Oofx0.04
+Cluster [Basic; 5.714285714285714e-60; max 500] -> Planetsx0.2, AlienXPx0.1, AlienCashx0.15, Moonx0.35, Oofx0.05
+Quasar [Basic; 1.9047619047619047e-76; max 400] -> TierLuckx0.2, Blackholesx0.3, RuneBulkx0.15, AlienCashx0.25, Starsx2, Knowledgex0.05, Oofx0.06
+Pulsar [Basic; 4e-100; max 300] -> Blackholesx1, Starsx20, RuneBulkx0.05, RuneLuckx0.12, AlienXPx0.2, Oofx0.07, Coinx0.5
+Black Hole [Basic; 1e-101; max 250] -> AlienCashx0.2, RuneBulkx0.01, Starsx50, TierLuckx0.25, RuneSpeedx0.075, Planetsx2, Blackholesx0.5, Oofx0.08
+Magnetar [Noobinial; 1.3333333333333334e-71; max 475] -> RuneSpeedx0.25, Oofx10, Starsx500, AlienCashx2, RuneLuckx0.1, Planetsx10, AlienXPx1, TierLuckx0.2
+Event Horizon [Noobinial; 2.0000000000000002e-72; max 450] -> RuneBulkx0.5, Blackholesx20, Prismx0.01, Oofx20, Knowledgex0.5, AlienCashx5, TierLuckx0.3, TierBulkx0.2
+Elemental Creation [Noobinial; 5e-79; max 100] -> RuneBulkx0.2, RuneSpeedx0.01, Oofx25, AlienCashx5, TierLuckx0.35, TierBulkx0.15, Knowledgex1, Blackholesx10
+## Light | Cost: Yang 125000000000000000 | Realm: 4
+White [Basic; 99; max 250] -> Yangx0.5, Sandx1000000000000000, Starsx0.2
+Divine Light [Basic; 6.666666666666667e-60; max 350] -> Oofx0.03, Yangx1.25, Starsx1, Coinx0.05
+Daylight [Basic; 1e-70; max 333] -> Oofx0.04, Yangx2, Starsx4, Coinx0.1
+Elemental Of Light [Basic; 1e-82; max 325] -> Yangx1.5, Starsx100, Planetsx0.25, Blackholesx0.1
+Protected [Basic; 1e-94; max 300] -> Oofx0.06, Yangx2.5, Starsx10, Planetsx0.1
+Creation [Basic; 1e-106; max 275] -> Starsx2000, Planetsx0.75, Yangx3, Blackholesx0.25, Coinx0.2
+Angelic Goodness [Basic; 1e-118; max 250] -> Oofx0.1, Yangx1.25, TierLuckx0.1, Starsx100000, Blackholesx1, Planetsx25, RuneLuckx0.05
+Absolute Divinity [Noobinial; 1e-81; max 100] -> Oofx2, Yangx5, AlienCashx10, Coinx20, TierLuckx0.35, Starsx1000000000, RuneBulkx0.05, RuneLuckx0.5
+## Dark | Cost: Yin 125000000000000000 | Realm: 4
+Black [Basic; 99; max 250] -> Oofx0.03, Yinx0.5, Icex1000000000000000
+Infinite Darkness [Basic; 9.999999999999999e-62; max 350] -> Yinx1.75, Starsx1, Coinx0.05, Bonesx1000000000000000
+Midnight [Basic; 1e-70; max 333] -> Oofx0.05, Yinx1.5, Starsx4, Coinx0.1
+Dark Elemental [Basic; 1e-82; max 325] -> Oofx0.08, Yinx1, Starsx10, Planetsx0.1
+Doomed [Basic; 1e-94; max 300] -> Yinx0.5, Starsx100, Planetsx0.25, Blackholesx0.1
+Destruction [Basic; 1e-106; max 275] -> Planetsx0.75, Yinx1.25, Oofx0.1, Starsx2000, Blackholesx0.25
+Demonic Evil [Basic; 1e-118; max 250] -> Starsx100000, Blackholesx1, Oofx0.2, Yinx3, Planetsx3, Coinx0.5, RuneBulkx0.01, TierLuckx0.2
+Absolute Darkness [Noobinial; 4e-83; max 100] -> Oofx10, Yinx5, Chipsx0.5, Knowledgex10, TierLuckx1, TierBulkx0.25, RuneBulkx0.2, RuneLuckx0.5
+## Hacker | Cost: HackPoints 425 | Realm: base
+Script [Basic; 99; max 600] -> HackPointsx0.05, Oofx2, Wheatx0.01
+Protocol [Basic; 1e-15; max 500] -> HackPointsx0.1, Oofx5, Cashx1.5, Wheatx0.02
+Cipher [Basic; 1e-20; max 400] -> HackPointsx0.2, Rebirthx1.5, Firex0.5, Breadx0.05, RuneSpeedx0.05
+Expliot [Basic; 1e-25; max 300] -> HackPointsx0.4, Oofx10, Rebirthx3, Wheatx1
+Kernel [Basic; 1e-28; max 200] -> HackPointsx0.5, Cashx5, Breadx0.5
+Root [Basic; 1e-31; max 150] -> HackPointsx0.85, Oofx25, Blazex0.5, Wheatx2, RuneBulkx0.05
+Backdoor [Basic; 1e-34; max 125] -> HackPointsx0.8, Firex5, Cashx10, RuneSpeedx0.01
+Rootkit [Noobinial; 1e-25; max 20] -> Oofx500, Cashx100, Rebirthx100, Breadx25, HackPointsx0.35, RuneLuckx0.05, RuneBulkx0.05
+Masterkey [Noobinial; 5e-27; max 30] -> Oofx2000, Firex200, Blazex100, Wheatx50, Coinx50, HackPointsx0.65, RuneBulkx0.08, RuneLuckx0.08
+Stuxnet [Noobinial; 1.91e-30; max 22] -> Oofx20000, Firex500, Coinx2.5, HackPointsx0.15, TierBulkx7, TierLuckx5, Prismx0.025
+Glitched [Basic; 2e-63; max 25000] -> HackPointsx100, Firex0.5, Ashx0.3, Planksx0.2, RuneLuckx0.01
+Firewall [Basic; 5.000000000000001e-72; max 8000] -> HackPointsx15, Woodx0.4, Breadx10, Bonesx0.02, RuneLuckx0.005
+Connor Hacked it [Basic; 1.3333333333333334e-81; max 5000000000] -> HackPointsx0.00005, Oofx1e-08, Bonesx0.001, Sandx0.02, ShovelDamagex0.05, Soulsx0.000001, RuneLuckx0.00001
+Anti-Cheat [Basic; 5e-86; max 200] -> HackPointsx20, Soulsx0.03, Cashx2, Meatx0.02, Coinx0.05, RuneLuckx0.01, Prismx0.002, RuneBulkx0.002
+Unstoppable Virus [Noobinial; 1e-67; max 40] -> Oofx0.5, HackPointsx2.5, Soulsx2, TierLuckx0.25, Prismx0.01, RuneBulkx0.05, PrismRuneBulkx0.05, PrismRuneLuckx0.5
+## Football | Cost: Goals 120000000000 | Realm: Event
+Scuff [Basic; 89; max 1500] -> Goalsx0.15, Oofx0.1
+Fade [Basic; 10; max 1250] -> Goalsx0.22, Rebirthx0.2
+Stitch [Basic; 0.1; max 1000] -> Goalsx0.35, Firex0.15
+Kickoff [Basic; 0.001; max 625] -> Goalsx0.55, Cashx0.175
+Dribble [Basic; 0.00001; max 400] -> Goalsx0.85, Coinx0.165, FootballRuneBulk+1
+Tackle [Basic; 1e-10; max 250] -> Goalsx0.15, Waterx0.15, Wheatx0.1, FootballRuneLuckx0.02
+Corner [Basic; 1e-15; max 150] -> Goalsx0.25, Gemx0.12, Breadx0.2, FootballRuneBulk+2
+Volley [Basic; 1e-20; max 100] -> Goalsx0.4, Ashx0.1, FootballRuneLuckx0.03
+Header [Basic; 1e-30; max 150] -> Goalsx0.7, TierLuckx0.55, TierBulkx0.45, FootballRuneLuckx0.05, FootballRuneBulkx0.1
+Finale [Noobinial; 1e-19; max 20] -> Goalsx1.2, Oofx1, Cashx0.3, Firex0.8, FootballRuneBulkx3.5
+Victory [Noobinial; 1.0000000000000001e-21; max 20] -> Goalsx2, Wheatx1, Coinx0.3, Breadx0.8, FootballRuneBulkx0.75
+Iconic [Noobinial; 4e-23; max 20] -> Goalsx3.5, PickaxeDamagex0.1, Gemx0.05, OresStatsx0.2, Prismx0.01, FootballRuneBulkx0.2
