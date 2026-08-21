@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A complete, searchable reference for UGC runes." />
+    <title>Rune Atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <a class="brand" href="#top" aria-label="Rune Atlas home"><span class="brand-mark">✦</span> RUNE ATLAS</a>
+      <div class="hero-copy">
+        <p class="eyebrow">UGC / Rune reference</p>
+        <h1>Every rune,<br /><em>mapped clearly.</em></h1>
+        <p class="lede">Browse each rune pool, inspect its rollable runes, and see the exact boosts they can provide.</p>
+      </div>
+      <div class="stats" id="stats" aria-label="Rune collection statistics"></div>
+    </header>
+
+    <main id="top">
+      <section class="controls" aria-label="Browse controls">
+        <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search runes or rewards…" autocomplete="off" /></label>
+        <nav id="pool-nav" class="pool-nav" aria-label="Rune pools"></nav>
+      </section>
+      <p id="result-note" class="result-note" aria-live="polite"></p>
+      <div id="content" class="content"><p class="loading">Loading rune data…</p></div>
+    </main>
+
+    <footer>Rune Atlas · Client data reference · Click a rune to inspect it</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
